@@ -14,7 +14,7 @@ const Hamburger = () => {
     <div className="hamburger" onClick={ToggleClass}>
       <p>Menu</p>
       <span className={isActive ? "open" : "close"}></span>
-      <ul className={isActive ? "openMenu" : "hideMenu"}>
+      <ul className={isActive ? "hideMenu" : "openMenu"}>
         {menuList.map((item) => {
           return ( 
           <li key={item.id} className="hamburger_item">
