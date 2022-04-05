@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/pet_finder/static/css/main.b4567db3.css",
+    "main.js": "/pet_finder/static/js/main.ed849551.js",
+    "static/media/dog-bg-desktop.jpeg": "/pet_finder/static/media/dog-bg-desktop.fa8f365cbc2f8559a7df.jpeg",
+    "static/media/dog-bg-mobile.jpeg": "/pet_finder/static/media/dog-bg-mobile.3c48064a97f3f8a858e8.jpeg",
+    "static/media/Roboto-Medium.ttf": "/pet_finder/static/media/Roboto-Medium.7429a63c09f79a1760b0.ttf",
+    "static/media/Roboto-Regular.ttf": "/pet_finder/static/media/Roboto-Regular.a8d6ac03c7b96b7acb62.ttf",
+    "static/media/Roboto-Bold.ttf": "/pet_finder/static/media/Roboto-Bold.75371f53f06181df75f1.ttf",
+    "static/media/Roboto-Light.ttf": "/pet_finder/static/media/Roboto-Light.8be2d1487420548b3b8d.ttf",
+    "static/media/logo.svg": "/pet_finder/static/media/logo.3faf9605eb54b6222849a470b46fe2a7.svg",
+    "index.html": "/pet_finder/index.html",
+    "static/media/Icon.svg": "/pet_finder/static/media/Icon.0c9a9be317398fdcdbb2.svg",
+    "main.b4567db3.css.map": "/pet_finder/static/css/main.b4567db3.css.map",
+    "main.ed849551.js.map": "/pet_finder/static/js/main.ed849551.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4567db3.css",
+    "static/js/main.ed849551.js"
+  ]
+}
