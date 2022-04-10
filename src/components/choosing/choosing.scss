@@ -1,5 +1,6 @@
 .choosing_list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 200px;
 }
@@ -10,6 +11,12 @@ h2 {
 
 .card {
     width: 28%;
+    min-width: 240px;
+    margin-bottom: 50px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
 
     &_content {
         background-color: #FA4D16;
@@ -62,6 +69,11 @@ h2 {
         }
     }
 }
+@media screen and (max-width: 679px) {
+    .card {
+        width: 95%;
+    }
+}
 
 @media screen and (max-width: 428px) {
     h2 {
@@ -71,22 +83,5 @@ h2 {
     .choosing_list {
         flex-direction: column;
         align-items: center;
-    }
-
-    .card {
-        width: 95%;
-        margin-bottom: 50px;
-
-        &:last-child {
-            margin-bottom: 0;
-        }
-        
-        &_name {
-            // font-size: 1.7em;
-        }
-
-        &_info {
-            // font-size: 1.3em;
-        }
     }
 }

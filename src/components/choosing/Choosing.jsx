@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import pets from '../../data';
 import './choosing.scss';
 
 function count(num) {
@@ -8,12 +7,34 @@ function count(num) {
 }
 
 class Choosing extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      items: [],
+      DataisLoaded: false
+    };
+  }
+
+  componentDidMount() {
+    fetch(
+    "https://api.jsonbin.io/b/62498395d96a510f028fde92")
+      .then((res) => res.json())
+      .then((json) => {
+        this.setState({
+          items: json.pets,
+          DataisLoaded: true
+        });
+    })
+  }
+
   render () {
+    const { DataisLoaded, items } = this.state;
+    if (!DataisLoaded) return <div><h2> Pleses wait some time.... </h2></div> ;
     return (
       <section className="container">
         <h2>Available Pets</h2>
         <div className="choosing_list">
-          {pets.map((item) => {
+          {items.map((item) => {
             return (
               <div key={item.id} className="card">
                 <div className="card_img">
