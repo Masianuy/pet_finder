@@ -1,50 +1,50 @@
 [
-    {
-        "id":1,
-        "name":"Razor",
-        "age":18,
-        "city":"San Diego",
-        "state":"CA",
-        "image":"https://images.unsplash.com/photo-1503301360699-4f60cf292ec8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
-    },
-    {
-        "id":2,
-        "name":"Fido",
-        "age":38,
-        "city":"Dallas",
-        "state":"TX",
-        "image":"https://images.unsplash.com/photo-1537815749002-de6a533c64db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1232&q=80"
-    },
-    {
-        "id":3,
-        "name":"Grace",
-        "age":22,
-        "city":"Miami",
-        "state":"FL",
-        "image":"https://images.unsplash.com/photo-1557413606-2a63a06a1f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-    },
-    {
-        "id":4,
-        "name":"Alice",
-        "age":12,
-        "city":"Miami",
-        "state":"FL",
-        "image":"https://images.unsplash.com/photo-1606041971133-7fedafcab553?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
-    },
-    {
-        "id":5,
-        "name":"Filli",
-        "age":25,
-        "city":"Miami",
-        "state":"FL",
-        "image":"https://images.unsplash.com/photo-1591946614720-90a587da4a36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-    },
-    {
-        "id":6,
-        "name":"Berra",
-        "age":5,
-        "city":"Miami",
-        "state":"FL",
-        "image":"https://images.unsplash.com/photo-1511417178704-6c921d51199a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-    }
+  {
+    "id": 1,
+    "name": "Razor",
+    "age": 18,
+    "city": "San Diego",
+    "state": "CA",
+    "image": "https://images.unsplash.com/photo-1503301360699-4f60cf292ec8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Fido",
+    "age": 38,
+    "city": "Dallas",
+    "state": "TX",
+    "image": "https://images.unsplash.com/photo-1537815749002-de6a533c64db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1232&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Grace",
+    "age": 22,
+    "city": "Miami",
+    "state": "FL",
+    "image": "https://images.unsplash.com/photo-1557413606-2a63a06a1f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Alice",
+    "age": 12,
+    "city": "Miami",
+    "state": "FL",
+    "image": "https://images.unsplash.com/photo-1606041971133-7fedafcab553?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Filli",
+    "age": 25,
+    "city": "Miami",
+    "state": "FL",
+    "image": "https://images.unsplash.com/photo-1591946614720-90a587da4a36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+  },
+  {
+    "id": 6,
+    "name": "Berra",
+    "age": 5,
+    "city": "Miami",
+    "state": "FL",
+    "image": "https://images.unsplash.com/photo-1511417178704-6c921d51199a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  }
 ]
