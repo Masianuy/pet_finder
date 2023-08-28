@@ -1,0 +1,16 @@
+import React from 'react';
+import Nav from '../components/nav/Nav';
+import Footer from '../components/footer/Footer';
+import PageNotFound from '../components/PageNotFound/PageNotFound';
+
+function NotFound () {
+  return (
+    <div className='wrap'>
+      <Nav />
+      <PageNotFound />
+      <Footer />
+    </div>
+  );
+}
+
+export default NotFound;

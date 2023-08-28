@@ -1,0 +1,16 @@
+.wrap-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-back {
+  margin-top: 2rem;
+  font-size: 1.5em;
+  padding: 1rem 2rem;
+
+  &:hover {
+    border: 1px solid #fa4d16;
+  }
+}

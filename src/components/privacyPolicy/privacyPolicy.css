@@ -1,0 +1,10 @@
+.privacy-policy h2 {
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.privacy-policy p {
+  margin: 7px 10px 7px 15px;
+}
+.privacy-policy a {
+  color: #fa4d16;
+}

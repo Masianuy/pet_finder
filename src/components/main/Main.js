@@ -1,7 +1,8 @@
 import React from 'react';
-import './header.scss';
+import './main.scss';
+import { Link } from 'react-router-dom';
 
-const Header = () => {
+const Main = () => {
   return (
     <header>
       <div className='container'>
@@ -10,10 +11,10 @@ const Header = () => {
           <br />
           Best Friend
         </h1>
-        <button>Get Started</button>
+        <Link to='/findpet' className='btn main-btn'>Get Started</Link>
       </div>
     </header>
   );
 };
 
-export default Header;
+export default Main;

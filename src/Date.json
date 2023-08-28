@@ -1,0 +1,124 @@
+{
+  "navigation": {
+    "find_pets": "Find a Pet",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "email": "pet_finder@gmail.com",
+  "phone": "+38 (097) 123 45 67",
+  "location": {
+    "country": "Україна",
+    "city": "Київ",
+    "address": "вул. Соборна, 17"
+  },
+  "pets": [
+    {
+      "id": 1,
+      "name": "Razor",
+      "age": 28,
+      "sex": "Female",
+      "city": "San Diego",
+      "state": "CA",
+      "image": "https://images.unsplash.com/photo-1503301360699-4f60cf292ec8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
+    },
+    {
+      "id": 2,
+      "name": "Fido",
+      "age": 38,
+      "sex": "Male",
+      "city": "Dallas",
+      "state": "TX",
+      "image": "https://images.unsplash.com/photo-1537815749002-de6a533c64db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1232&q=80"
+    },
+    {
+      "id": 3,
+      "name": "Grace",
+      "age": 32,
+      "sex": "Female",
+      "city": "Miami",
+      "state": "FL",
+      "image": "https://images.unsplash.com/photo-1557413606-2a63a06a1f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+      "id": 4,
+      "name": "Alice",
+      "age": 22,
+      "sex": "Female",
+      "city": "Miami",
+      "state": "FL",
+      "image": "https://images.unsplash.com/photo-1606041971133-7fedafcab553?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
+    },
+    {
+      "id": 5,
+      "name": "Filli",
+      "age": 13,
+      "sex": "Female",
+      "city": "Miami",
+      "state": "FL",
+      "image": "https://images.unsplash.com/photo-1591946614720-90a587da4a36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+    },
+    {
+      "id": 6,
+      "name": "Berra",
+      "age": 2,
+      "sex": "Male",
+      "city": "Miami",
+      "state": "FL",
+      "image": "https://images.unsplash.com/photo-1511417178704-6c921d51199a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+      "id": 7,
+      "name": "Moxie",
+      "age": 5,
+      "sex": "Male",
+      "city": "Quakertown",
+      "state": "PA",
+      "image": "https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=994&q=80"
+    },
+    {
+      "id": 8,
+      "name": "Fluffy Butt",
+      "age": 3,
+      "sex": "Female",
+      "city": "Salem",
+      "state": "OR",
+      "image": "https://images.unsplash.com/photo-1611003229235-fb5748510459?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=300&q=60"
+    },
+    {
+      "id": 9,
+      "name": "Milo",
+      "age": 8,
+      "sex": "Male",
+      "city": "Quakertown",
+      "state": "PA",
+      "image": "https://images.unsplash.com/photo-1622227056993-6e7f88420855?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80"
+    },
+    {
+      "id": 10,
+      "name": "Hazelnut",
+      "age": 4,
+      "sex": "Male",
+      "city": "Salem",
+      "state": "OR",
+      "image": "https://images.unsplash.com/photo-1541689221361-ad95003448dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+      "id": 11,
+      "name": "Ivy",
+      "age": 23,
+      "sex": "Male",
+      "city": "Beaverton",
+      "state": "OR",
+      "image": "https://images.unsplash.com/photo-1565979567354-9e5f44b2b499?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=300&q=60"
+    },
+    {
+      "id": 12,
+      "name": "Frannie",
+      "age": 2,
+      "sex": "Female",
+      "city": "Albany",
+      "state": "OR",
+      "image": "https://plus.unsplash.com/premium_photo-1666622857037-7099ea1121d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGdvYXR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=300&q=60"
+    }
+  ]
+}
