@@ -1,14 +1,13 @@
 import React from 'react';
 import Nav from '../components/nav/Nav';
 import Footer from '../components/footer/Footer';
-import { Link } from 'react-router-dom';
+import Contacts from '../components/contacts/Contacts';
 
 function Contact () {
   return (
     <div className='wrap'>
       <Nav />
-      Contact
-      <Link to='/dfg'>dfgdfgd</Link>
+      <Contacts />
       <Footer />
     </div>
   );

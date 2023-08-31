@@ -1,0 +1,35 @@
+.history {
+  margin: 3rem auto;
+}
+.history h1 {
+  margin: 0 auto 3rem;
+  text-align: center;
+}
+.history h1 span {
+  color: #ffffff;
+  background-color: #fa4b16;
+  padding: 0.8rem 3rem;
+  clip-path: polygon(0 0, 90% 0, 100% 100%, 10% 100%);
+}
+.history .subtitle {
+  font-size: 2em;
+}
+
+.photo-wrap {
+  object-fit: contain;
+  object-position: center;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+  max-width: 60%;
+  margin: 1rem auto 0;
+}
+
+.photo-message {
+  text-align: right;
+  font-size: 1.3em;
+  max-width: 45%;
+  margin-left: auto;
+  padding: 1.5rem;
+  border-radius: 21px;
+  color: #ffffff;
+  background-color: #fa4b16;
+}

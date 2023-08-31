@@ -1,0 +1,28 @@
+input,
+select,
+textarea {
+  padding: 1rem;
+  border: 1px solid #0e0d0d;
+  border-radius: 8px;
+  margin: 0.2rem 0 0.2rem;
+  background-color: transparent;
+  font-size: 0.9em;
+  color: #0e0d0d;
+}
+
+label {
+  margin-top: 0.5rem;
+  font-size: 0.9em;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
+
+input.invalid {
+  border: 1px solid #fa4b16;
+}
+
+p.error-inputing {
+  font-size: 0.8em;
+  letter-spacing: 0.04em;
+  color: #940707;
+}
