@@ -1,9 +1,10 @@
 import React from 'react';
-import data from '../../Date.json';
 import './choosing.scss';
+import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 
-const Choosing = () => {
-  const { pets } = data;
+const Choosing = (props) => {
+  const { petsList: {pets} } = props;
   function count (num) {
     let fullYears = Number.parseFloat((num / 12).toFixed(1));
     return fullYears;
@@ -14,7 +15,7 @@ const Choosing = () => {
       <div className='choosing_list'>
         {pets.map(pet => {
           return (
-            <div key={pet.id} className='card'>
+            <Link to={`/findpet/:${pet.id}`} key={pet.id} className='card'>
               <div className='card_img'>
                 <img
                   src={pet.image}
@@ -32,12 +33,15 @@ const Choosing = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </Link>
           );
         })}
       </div>
     </section>
   );
 };
+const mapStateToProps = state => {
+  return state;
+}
 
-export default Choosing;
+export default connect(mapStateToProps)(Choosing);;

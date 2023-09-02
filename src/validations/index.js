@@ -17,3 +17,7 @@ export const schemaContact = Yup.object().shape({
     .matches(regForPhone, 'Phone was inputing wrong'),
   body: Yup.string().min(10, 'min 10 letters'),
 });
+
+export const volunteerSchema = Yup.object().shape({
+  
+})

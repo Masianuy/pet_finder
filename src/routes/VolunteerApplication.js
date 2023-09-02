@@ -1,18 +1,18 @@
 import React from 'react';
 import Nav from '../components/nav/Nav';
 import Footer from '../components/footer/Footer';
-import Contacts from '../components/contacts/Contacts';
+import VolunteerForm from '../components/VolunteerForm/VolunteerForm';
 
-function Contact () {
+function VolunteerApplication () {
   return (
     <>
       <Nav />
       <div className='wrap'>
-        <Contacts />
+        <VolunteerForm />
         <Footer />
       </div>
     </>
   );
 }
 
-export default Contact;
+export default VolunteerApplication;

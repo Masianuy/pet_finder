@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 10px;
 }
 
 h2 {
@@ -9,9 +10,11 @@ h2 {
 }
 
 .card {
-  width: 28%;
-  min-width: 240px;
+  display: block;
+  flex-basis: 28%;
+  min-width: 315px;
   margin-bottom: 50px;
+  flex-grow: 1;
 
   &:last-child {
     margin-bottom: 0;

@@ -1,0 +1,198 @@
+@charset "UTF-8";
+.volunteer-form-wrap {
+  margin: 0 auto;
+  text-align: center;
+}
+.volunteer-form-wrap h3 {
+  margin: 2.5rem auto;
+  display: inline-block;
+  color: #ffffff;
+  background-color: #fa4b16;
+  padding: 0.8rem 3rem;
+  clip-path: polygon(0 0, 90% 0, 100% 100%, 10% 100%);
+}
+.volunteer-form-wrap p {
+  text-align: center;
+  padding: 0 4rem 4rem;
+}
+
+.volunteer-form {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: auto;
+  grid-gap: 2rem;
+  text-align: start;
+}
+.volunteer-form .left {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: flex;
+  flex-direction: column;
+}
+.volunteer-form .right {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: flex;
+  flex-direction: column;
+}
+.volunteer-form .age {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.volunteer-form .age span {
+  margin-right: 2rem;
+}
+.volunteer-form .age > div {
+  display: flex;
+  align-items: center;
+}
+.volunteer-form .age > div input {
+  width: auto;
+  margin-left: 1rem;
+}
+.volunteer-form .textarea {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.volunteer-form .type-of-volunteer {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.volunteer-form .type-of-volunteer > div {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+}
+.volunteer-form .type-of-volunteer > div input {
+  width: auto;
+  margin-right: 1rem;
+}
+.volunteer-form .volunteer-btn {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  margin: 0 auto;
+}
+
+.thanks {
+  margin: 3rem;
+  display: grid;
+  grid-auto-columns: 1fr minmax(300px, 400px);
+  grid-template-rows: 1fr;
+  grid-gap: 2rem;
+}
+.thanks .left {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  text-align: left;
+  padding: 8rem 0;
+}
+.thanks .left h5 {
+  margin-bottom: 1rem;
+}
+.thanks .left li {
+  padding-left: 1rem;
+  position: relative;
+}
+.thanks .left li::before {
+  position: absolute;
+  top: -0.5rem;
+  left: 0;
+  content: "•";
+  color: #fa4b16;
+  font-size: 2rem;
+}
+.thanks .right {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-image: url(./../../img/thanks.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 991px) {
+  .thanks {
+    margin: 3rem 0;
+  }
+}
+@media screen and (max-width: 815px) {
+  .volunteer-form .left {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    flex-direction: column;
+  }
+  .volunteer-form .right {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    flex-direction: column;
+  }
+  .volunteer-form .age {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .volunteer-form .textarea {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+  .volunteer-form .type-of-volunteer {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .volunteer-form .volunteer-btn {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 678px) {
+  .thanks {
+    grid-auto-columns: 1fr;
+    grid-template-rows: minmax(300px, 600px) 1fr;
+    grid-gap: 0;
+  }
+  .thanks .left {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 2rem 0;
+  }
+  .thanks .right {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+}

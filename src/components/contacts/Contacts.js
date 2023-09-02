@@ -4,8 +4,9 @@ import { Form, Formik } from 'formik';
 import { Link } from 'react-router-dom';
 import { schemaContact } from '../../validations';
 import Input from '../Input/Input';
-import SliderInContacts from '../SliderInContacts/SliderInContacts';
+import Slider from '../Slider/Slider';
 import './contacts.scss';
+import SliderInContact from '../SliderInContact/SliderInContact';
 
 function Contacts () {
   const {
@@ -92,15 +93,7 @@ function Contacts () {
           )}
         </Formik>
       </div>
-      <div className='container slider-wrap'>
-        <div className='slider-left'>
-          <SliderInContacts />
-        </div>
-        <div className='slider-right'>
-          <h3 className='title'>Here you can <span>find your four-legged</span> friend</h3>
-          <p className='subtitle'>In the shelter, there will be friends for everyone - big, small, guards, companions, lazy and restless.</p>
-        </div>
-      </div>
+      <SliderInContact />
     </section>
   );
 }

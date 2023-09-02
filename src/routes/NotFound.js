@@ -5,11 +5,13 @@ import PageNotFound from '../components/PageNotFound/PageNotFound';
 
 function NotFound () {
   return (
-    <div className='wrap'>
+    <>
       <Nav />
-      <PageNotFound />
-      <Footer />
-    </div>
+      <div className='wrap'>
+        <PageNotFound />
+        <Footer />
+      </div>
+    </>
   );
 }
 

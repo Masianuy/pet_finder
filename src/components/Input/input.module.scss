@@ -8,21 +8,28 @@ textarea {
   background-color: transparent;
   font-size: 0.9em;
   color: #0e0d0d;
+  width: 100%;
 }
 
 label {
+  display: block;
   margin-top: 0.5rem;
-  font-size: 0.9em;
+  font-size: 1em;
   font-weight: 300;
   letter-spacing: 0.02em;
 }
 
-input.invalid {
-  border: 1px solid #fa4b16;
+.input-wrap {
+  width: 100%;
+
+  & p.error-inputing {
+    font-size: 0.9em;
+    letter-spacing: 0.04em;
+    color: #940707;
+  }
 }
 
-p.error-inputing {
-  font-size: 0.8em;
-  letter-spacing: 0.04em;
-  color: #940707;
+
+input.invalid {
+  border: 1px solid #fa4b16;
 }

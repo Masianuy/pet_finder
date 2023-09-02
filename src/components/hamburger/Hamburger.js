@@ -3,11 +3,18 @@ import data from '../../Date.json';
 import './hamburger.scss';
 
 const Hamburger = () => {
-  const { navigation: {find_pets, about, contact} } = data;
+  const {
+    navigation: { find_pets, about, contact },
+  } = data;
   const [isActive, setActive] = useState('false');
 
   const ToggleClass = () => {
     setActive(!isActive);
+    if (isActive) {
+      document.body.style.overflowY = 'hidden';
+    } else {
+      document.body.style.overflowY = 'auto';
+    }
   };
 
   return (

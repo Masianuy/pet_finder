@@ -27,11 +27,11 @@ footer {
   margin-bottom: 1rem;
   display: inline-block;
   line-height: 1.3;
-  color: #000000;
+  color: #1a1a1a;
   border-bottom: 1px solid transparent;
 }
 .footer_bottom .privacy_policy:hover {
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #1a1a1a;
 }
 
 @media screen and (max-width: 442px) {

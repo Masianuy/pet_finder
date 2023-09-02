@@ -6,12 +6,14 @@ import Footer from '../components/footer/Footer';
 
 function Home () {
   return (
-    <div className='wrap'>
+    <>
       <Nav />
-      <Main />
-      <Choosing />
-      <Footer />
-    </div>
+      <div className='wrap'>
+        <Main />
+        <Choosing />
+        <Footer />
+      </div>
+    </>
   );
 }
 

@@ -5,11 +5,13 @@ import PrivacyPolicy from '../components/privacyPolicy/PrivacyPolicy';
 
 function Privacy () {
   return (
-    <div className='wrap'>
+    <>
       <Nav />
-      <PrivacyPolicy />
-      <Footer />
-    </div>
+      <div className='wrap'>
+        <PrivacyPolicy />
+        <Footer />
+      </div>
+    </>
   );
 }
 

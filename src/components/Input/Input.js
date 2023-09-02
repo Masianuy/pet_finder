@@ -7,7 +7,7 @@ import styles from './input.module.scss';
 function Input (props) {
   const { name, label, children, as, ...restProps } = props;
   return (
-    <>
+    <div className={styles['input-wrap']}>
       <label htmlFor={name}>{label}</label>
       {as ? (
         <Field name={name} as={as} children={children} {...restProps} />
@@ -22,7 +22,7 @@ function Input (props) {
         </Field>
       )}
       <ErrorMessage name={name} component='p' className={styles['error-inputing']} />
-    </>
+    </div>
   );
 }
 

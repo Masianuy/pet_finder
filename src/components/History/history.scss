@@ -1,8 +1,10 @@
 .history {
-  margin: 3rem auto;
+  margin: 3rem auto 3rem;
+
   & h1 {
     margin: 0 auto 3rem;
     text-align: center;
+
     & span {
       color: #ffffff;
       background-color: #fa4b16;
@@ -10,10 +12,12 @@
       clip-path: polygon(0 0, 90% 0, 100% 100%, 10% 100%);
     }
   }
+
   & .subtitle {
     font-size: 2em;
   }
 }
+
 .photo-wrap {
   object-fit: contain;
   object-position: center;
