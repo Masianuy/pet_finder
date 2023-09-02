@@ -15,7 +15,7 @@ const Choosing = (props) => {
       <div className='choosing_list'>
         {pets.map(pet => {
           return (
-            <Link to={`/findpet/:${pet.id}`} key={pet.id} className='card'>
+            <Link to={`/findpet/${pet.id}`} key={pet.id} className='card' state={pet}>
               <div className='card_img'>
                 <img
                   src={pet.image}

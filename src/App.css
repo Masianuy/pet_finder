@@ -103,6 +103,7 @@ button:disabled {
   border: none;
   background-color: #fa4d16;
   color: #ffffff;
+  cursor: pointer;
 }
 .btn:hover {
   color: #fa4d16;
