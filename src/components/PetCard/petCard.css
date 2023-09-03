@@ -69,5 +69,13 @@
     grid-row: 3;
     grid-column-start: 1;
     grid-column-end: 2;
+    display: flex;
+  }
+  .pet-card .full button {
+    font-size: 1em;
+    padding: 0.9rem 1.3rem;
+  }
+  .pet-card .full button:first-child {
+    margin-right: 1rem;
   }
 }

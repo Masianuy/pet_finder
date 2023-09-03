@@ -85,8 +85,8 @@ function Contacts () {
               />
               <div>
                 <label className='agree-with-privacy'>
-                  <input type='checkbox' name='agreeWithPrivacy' />I Agree to{' '}
-                  <Link to='/privacy-policy'>Privacy Policy</Link>
+                  <input type='checkbox' name='agreeWithPrivacy' />I Agree to
+                  <Link to='/privacy-policy'> Privacy Policy</Link>
                 </label>
                 <ErrorMessage name='agreeWithPrivacy' component='p' className='privacy-error' />
               </div>

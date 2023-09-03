@@ -17,7 +17,7 @@ function History () {
       </div>
       <div className='container'>
         <div className='photo-wrap'>
-          <img src={photo} alt='' />
+          <img src={photo} alt='dog' />
         </div>
         <p className='photo-message'>These people are like little children who simply can not do without our supervision!</p>
       </div>

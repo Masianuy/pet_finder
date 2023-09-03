@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import data from '../../Date.json';
 import './hamburger.scss';
+import { NavLink } from 'react-router-dom';
 
 const Hamburger = () => {
   const {
@@ -23,19 +24,19 @@ const Hamburger = () => {
       <span className={isActive ? 'open' : 'close'}></span>
       <ul className={isActive ? 'hideMenu' : 'openMenu'}>
         <li className='nav_item'>
-          <a href='https://' className='nav_item-link'>
+          <NavLink to='/findpet' className='nav_item-link'>
             {find_pets}
-          </a>
+          </NavLink>
         </li>
         <li className='nav_item'>
-          <a href='https://' className='nav_item-link'>
+          <NavLink to='/about' className='nav_item-link'>
             {about}
-          </a>
+          </NavLink>
         </li>
         <li className='nav_item'>
-          <a href='https://' className='nav_item-link'>
+          <NavLink to='/contacts' className='nav_item-link'>
             {contact}
-          </a>
+          </NavLink>
         </li>
       </ul>
     </div>

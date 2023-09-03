@@ -15,7 +15,7 @@ export const schemaContact = Yup.object().shape({
     .required('This field is required')
     .matches(regForPhone, 'Phone was inputing wrong'),
   body: Yup.string().min(10, 'min 10 letters'),
-  agreeWithPrivacy: Yup.boolean().required('You need to agree to the privacy policy'),
+  agreeWithPrivacy: Yup.boolean().oneOf([true], 'You need to agree to the privacy policy'),
 });
 
 export const volunteerSchema = Yup.object().shape({
