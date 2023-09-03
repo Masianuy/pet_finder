@@ -9,4 +9,17 @@
   & a {
     color: #fa4d16;
   }
+  & .go-back {
+    margin-top: 2rem;
+    color: #1a1a1a;
+    cursor: pointer;
+  
+    & span {
+      color: #fa4b16;
+    }
+  
+    &:hover {
+      color: #fa4b16;
+    }
+  }
 }

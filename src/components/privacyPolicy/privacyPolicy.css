@@ -8,3 +8,14 @@
 .privacy-policy a {
   color: #fa4d16;
 }
+.privacy-policy .go-back {
+  margin-top: 2rem;
+  color: #1a1a1a;
+  cursor: pointer;
+}
+.privacy-policy .go-back span {
+  color: #fa4b16;
+}
+.privacy-policy .go-back:hover {
+  color: #fa4b16;
+}

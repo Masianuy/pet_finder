@@ -1,10 +1,12 @@
 import React from 'react'
 import './privacyPolicy.scss'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 function PrivacyPolicy() {
+  const navigate = useNavigate();
   return (
     <div className='container privacy-policy'>
+      <p className='go-back' onClick={() => navigate(-1)}><span>« </span>Go back</p>
       <h2>Privacy policy</h2>
       <p>When you use our services, you’re trusting us with your information. We understand this is a big responsibility and work hard to protect your information and put you in control.</p>
       <p>This Privacy Policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export, and delete your information.</p>

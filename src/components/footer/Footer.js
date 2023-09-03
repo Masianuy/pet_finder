@@ -24,7 +24,7 @@ function Footer () {
         </div>
       </div>
       <div className='container footer_bottom'>
-        <Link to='privacy-policy' className='privacy_policy'>
+        <Link to='/privacy-policy' className='privacy_policy'>
           Повідомлення про приватність
         </Link>
         <p>© Pet finder firm 2023</p>
