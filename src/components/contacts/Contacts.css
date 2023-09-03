@@ -69,6 +69,20 @@
   border-radius: 8px;
 }
 
+.agree-with-privacy a {
+  color: #fa4b16;
+}
+.agree-with-privacy input {
+  width: auto;
+  margin-right: 0.5rem;
+}
+
+.agree-with-privacy ~ .privacy-error {
+  font-size: 0.9em;
+  letter-spacing: 0.04em;
+  color: #940707;
+}
+
 @media screen and (max-width: 719px) {
   .form-wrap {
     width: 95%;

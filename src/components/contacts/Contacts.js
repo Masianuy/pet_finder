@@ -1,6 +1,6 @@
 import React from 'react';
 import data from './../../Date.json';
-import { Form, Formik } from 'formik';
+import { ErrorMessage, Form, Formik } from 'formik';
 import { Link } from 'react-router-dom';
 import { schemaContact } from '../../validations';
 import Input from '../Input/Input';
@@ -20,6 +20,7 @@ function Contacts () {
     email: '',
     phone: '',
     body: '',
+    agreeWithPrivacy: '',
   };
   const handleSubmit = (values, formikBag) => {
     formikBag.resetForm();
@@ -82,6 +83,14 @@ function Contacts () {
                 name='body'
                 label='Your message'
               />
+              <div>
+                <label className='agree-with-privacy'>
+                  <input type='checkbox' name='agreeWithPrivacy' />I Agree to{' '}
+                  <Link to='/privacy-policy'>Privacy Policy</Link>
+                </label>
+                <ErrorMessage name='agreeWithPrivacy' component='p' className='privacy-error' />
+              </div>
+
               <button
                 className='btn btn-form'
                 type='submit'

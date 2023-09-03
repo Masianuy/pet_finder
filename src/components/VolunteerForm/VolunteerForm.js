@@ -5,10 +5,22 @@ import Input from '../Input/Input';
 import { volunteerSchema } from '../../validations';
 
 function VolunteerForm () {
-  const initialValues = {};
+  const initialValues = {
+    firstName: '',
+    secondName: '',
+    phone: '',
+    email: '',
+    region: '',
+    city: '',
+    age: '',
+    body: '',
+    typeOfVolunteer: '',
+  };
   const handleSubmit = (values, formikBag) => {
     console.log(values);
     formikBag.resetForm();
+    document.getElementsByName("age").forEach(i => i.checked = false)
+    document.getElementsByName("typeOfVolunteer").forEach(i => i.checked = false)
   };
 
   return (
