@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pet_finder/static/css/main.c9e11afd.css",
-    "main.js": "/pet_finder/static/js/main.bd6ba722.js",
+    "main.js": "/pet_finder/static/js/main.1aef6b83.js",
     "static/media/map.png": "/pet_finder/static/media/map.1f6fdf34500d4dd7840b.png",
     "static/media/dog-bg-desktop.jpeg": "/pet_finder/static/media/dog-bg-desktop.fa8f365cbc2f8559a7df.jpeg",
     "static/media/slide-3.jpg": "/pet_finder/static/media/slide-3.d51f56d17c58c7c3404c.jpg",
@@ -16,10 +16,10 @@
     "index.html": "/pet_finder/index.html",
     "static/media/Icon.svg": "/pet_finder/static/media/Icon.60ed9394ad62fc7cdf8f.svg",
     "main.c9e11afd.css.map": "/pet_finder/static/css/main.c9e11afd.css.map",
-    "main.bd6ba722.js.map": "/pet_finder/static/js/main.bd6ba722.js.map"
+    "main.1aef6b83.js.map": "/pet_finder/static/js/main.1aef6b83.js.map"
   },
   "entrypoints": [
     "static/css/main.c9e11afd.css",
-    "static/js/main.bd6ba722.js"
+    "static/js/main.1aef6b83.js"
   ]
 }
