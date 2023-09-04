@@ -9,7 +9,7 @@ const Nav = () => {
   return (
     <div className='nav-wrap'>
       <nav className='container nav'>
-        <Link to='/' className='nav_logo'>
+        <Link to='/pet_finder' className='nav_logo'>
           <img src={logo} alt='logo' width='348px' height='60px' />
         </Link>
         <Menu />

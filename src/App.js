@@ -14,7 +14,7 @@ function App () {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/pet_finder' index element={<Home />} />
           <Route path='/findpet' element={<FindPet />} />
           <Route path='/findpet/:id' element={<PetPage />} />
           <Route path='/about' element={<About />} />
